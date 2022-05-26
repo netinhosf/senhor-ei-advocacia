@@ -1,0 +1,77 @@
+body {
+    font-family: 'Bebas Neue', cursive;
+}
+.senhor-lei {
+    text-align: left;
+    font-size: 24px;
+}
+.header {
+    border-bottom: 1px solid #d5d5d5;
+}
+.banner {
+    width: 800px;
+    margin: 0 auto;
+}
+.header p {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: bold;
+}
+h1, h2 {
+    margin: 0;
+}
+h3 {
+    font-weight: bold;
+}
+.banner-principal{
+    min-height: 500px;
+    background-image: url(/src/img/capa.jpg);
+    background-size: cover;
+}
+.conteudo-banner {
+    text-align: right;
+    padding: 50px 20px;
+}
+.texto-banner {
+    width: 800px;
+    margin: 0 auto;
+}
+.conteudo {
+    padding: 50px 20px;
+}
+.img-conteudo {
+    width: 250px;
+    height: 180px;
+}
+.banner span {
+    border-left: 1px solid;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.divisor {
+    background-image: url(/src/img/fundo.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.fonte {
+    color: black;
+    background-color: white;
+    width: 150px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 40px;
+    padding-top: 10px;
+    margin:0px auto;
+}
+.divisor-texto {
+   display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
